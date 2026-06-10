@@ -1,0 +1,37 @@
+.hero {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8");
+
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #f97316;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
